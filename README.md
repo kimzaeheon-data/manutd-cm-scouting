@@ -101,7 +101,7 @@ manutd-cm-scouting/
 ├── notebooks/
 │   ├── 01_position_analysis.ipynb    # 위치 데이터 분석 (히트맵·산점도)
 │   └── 02_scoring_model.ipynb        # 적합도 점수 모델 (레이더·바 차트)
-│   └── 03_whoscored_scoring_model.ipynb        # 적합도 점수 모델
+│   └── 03_whoscored_scoring_model.ipynb        # whoscored 데이터 기반 완성판 점수 모델
 ├── scripts/
 │   └── extract_coordinates.py        # CV 좌표 추출 스크립트
 └── requirements.txt
@@ -133,7 +133,7 @@ jupyter lab
 
 **현재 한계**
 1. CV 데이터는 분데스리가 샘플 기준 — 후보 선수 영상 확보 후 재측정 필요
-2. 운반·전진 자질(25%)은 FBref 데이터 확보 전까지 중립값(0.5) 처리
+2. WhoScored 데이터로 대체, 향후 FBref 전환 예정
 3. 3명 기준 MinMax 정규화 — 리그 전체 분포 기준으로 보강 시 더 견고해짐
 
 **향후 계획**

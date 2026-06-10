@@ -1,0 +1,20 @@
+# AI 기반 축구 스카우팅 분석 시스템
+# Python 3.11 (Apple Silicon MPS)
+
+# Computer Vision
+ultralytics>=8.4.0
+supervision==0.27.0        # ByteTrack 호환 버전 고정
+roboflow
+
+# 데이터 수집
+soccerdata>=1.9.0
+
+# 분석·시각화
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm
+
+# 유틸
+gdown
+polars
